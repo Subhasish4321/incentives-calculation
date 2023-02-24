@@ -1,0 +1,2 @@
+# incentives-calculation
+In some organization, January is the month of giving appraisal to employees, so HR department of that organization decided to give appraisal to only those employees whose employee id is more than 201. In that organization every employee is getting basic salary is 20,000INR and when employee id is greater than 201 then company decides to give appraisal of 1000INR to every employee. So as a programmer help that company to check who is eligible for getting incentive.

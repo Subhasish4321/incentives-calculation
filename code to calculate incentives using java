@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int Id;
+        String name,designation;
+        double salary=20000.0;
+        Id=sc.nextInt();
+        name = sc.next();
+        designation=sc.next();   
+        if(Id>201){
+            salary+=1000.0;
+            System.out.println(name+", "+Id+", "+salary);
+        } 
+        else 
+        {
+            System.out.println("No Appraisal");
+        }
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
